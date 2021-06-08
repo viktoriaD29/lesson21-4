@@ -3,4 +3,4 @@ export function setTitle(text) {
   elemText.textContent = text;
   return elemText
 }
-console.dir(setTitle('Hello, world!'))
+setTitle('Hello, world!')
