@@ -1,6 +1,6 @@
-export function setTitle(text) {
+function setTitle(text) {
   let elemText = document.querySelector('.title')
-  elemText = text;
+  elemText.textContent = text;
   return elemText
 }
 console.dir(setTitle('Hello, world!'))
